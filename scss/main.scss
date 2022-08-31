@@ -1,0 +1,71 @@
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+// variable font
+$Silkscreen: 'Silkscreen', cursive;
+
+header{
+    .navbar{
+        .container-fluid{
+            background-image: linear-gradient(to right, black,  grey);
+            .navbar-brand{
+                margin: 10px;
+                padding: 10px;
+                .logo{
+                    height: 120px;
+                    width: 200px;
+
+                }
+            }
+            .collapse{
+                justify-content: flex-end;
+                .navbar-nav{
+                    .nav-item{
+                        font-family: 'Courier New';
+                        font-weight: bold;
+                        font-size: 25px;
+                        .nav-link{
+                            color: rgb(176, 6, 6);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+main{
+    .d-flex{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        h1{
+            font-family: 'Courier New';
+            font-weight: bold;
+            font-size: 60px;
+            color: red;
+        }
+        .parrafo{
+            font-family: 'Courier New';
+            font-size: 25px;
+            text-align: center;
+            color: black;
+        }
+    }
+    .containerVideo{
+        .video{
+            width: 100%;
+            height: 600px;
+        }
+    }
+}
+footer{
+    .d-flex{
+        background-image: linear-gradient(to right, black, grey);
+        justify-content: space-evenly;
+        .p-2{
+            .facebook{
+                height: 45px;
+                width: 45px;
+            }
+        }
+    }
+}
