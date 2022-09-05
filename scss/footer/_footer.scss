@@ -1,0 +1,12 @@
+footer{
+    .d-flex{
+        background-image: linear-gradient(to right, black, grey);
+        justify-content: space-evenly;
+        .p-2{
+            .facebook{
+                height: 45px;
+                width: 45px;
+            }
+        }
+    }
+}
